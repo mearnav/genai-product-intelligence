@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-04T20:45:01.100295", "question": "Count total events by event_name", "sql": "SELECT COUNT(*) AS total_events, event_name \nFROM events \nGROUP BY event_name", "latency_ms": 8878.74}
+{"timestamp": "2026-03-04T20:45:41.714532", "question": "Count total events", "sql": "SELECT COUNT(*) \nFROM events", "latency_ms": 8127.62}
