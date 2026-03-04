@@ -65,6 +65,7 @@ Every request is logged with:
 ---
 
 # System Architecture
+```
 User Question
 ↓
 Streamlit Dashboard
@@ -78,13 +79,16 @@ SQL Executor
 Database (SQLite)
 ↓
 Results + Charts + Metrics
+```
 
+```
 Evaluation + Analytics dashboards monitor performance.
+```
 
 ---
 
 # Project Structure
-
+```
 genai-product-intelligence/
 
 app/                # Application entrypoints
@@ -102,7 +106,7 @@ text2sql/           # NL → SQL pipeline
 .gitignore
 pyproject.toml
 README.md
-
+```
 ---
 
 # Technology Stack
@@ -253,3 +257,4 @@ https://github.com/mearnav
 # License
 
 - This project is intended for educational and research purposes.
+
